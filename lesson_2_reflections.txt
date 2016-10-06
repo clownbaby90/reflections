@@ -1,0 +1,11 @@
+1) What happens when you initialize a repository? Why do you need to do it?
+
+When you intialize a repository it prepares it for being submitted github.
+The .git folder is typically hidden, but contains the meta data that is used
+for retrieving previous commits.
+
+2) How is the staging area different from the working directory and the repository?
+ What value do you think it offers?
+ 
+ The staging area acts as an intermediary between the working directory and the
+ repository. It helps the user from making commits that don't logically make sense.
