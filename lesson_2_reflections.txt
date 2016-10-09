@@ -1,6 +1,6 @@
 1) What happens when you initialize a repository? Why do you need to do it?
 
-When you intialize a repository it prepares it for being submitted github.
+ When you intialize a repository it prepares it for being submitted github.
 The .git folder is typically hidden, but contains the meta data that is used
 for retrieving previous commits.
 
@@ -8,4 +8,31 @@ for retrieving previous commits.
  What value do you think it offers?
  
  The staging area acts as an intermediary between the working directory and the
- repository. It helps the user from making commits that don't logically make sense.
+repository. It helps the user from making commits that don't logically make sense.
+
+3) How can you use the staging area to make sure you have one commit per logical
+ change?
+
+ The staging area provides a space to compare the working directory and the previous
+commits. You can use git diff to compare the working directory and the staging area;
+git diff --staged to compare the staging area and the most recent commit; and, git
+diff com1 com2 to compare com1 to com2.
+
+4) What are some situations when branches would be helpful in keeping your history
+ organized? How would branches help?
+ 
+ When implementing a new feature but while still wishing to keep a working copy of
+one's code. Having a separate branch allows you to work on both the main code and
+the new feature individually. 
+
+5) How do the diagrams help visualize the branch structure?
+
+ They show the relationships between different stages of commits and what can 
+be accessed by which branch.
+
+6) What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+
+ The result of merging 2 branches combines the changes in 2 separate instances
+of the same file. The diagram shows the history of the two instances and the order
+in which the changes were made.
