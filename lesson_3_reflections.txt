@@ -7,3 +7,13 @@
  
  A change may be made to the remote repository that would break the code you are currently
 working on.
+
+3)Describe the differences between forks, clones, and branches. When would you use one 
+ instead of another?
+ 
+ Fork - creates a copy of an existing repository stored remotely on gitHub on a seperate
+		users account
+		
+ Clone - creates a local copy of an existing repository stored remotely on gitHub 
+ 
+ Branch - creates a local copy of an existing project stored locally with a seperate name
