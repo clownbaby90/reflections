@@ -17,3 +17,8 @@ working on.
  Clone - creates a local copy of an existing repository stored remotely on gitHub 
  
  Branch - creates a local copy of an existing project stored locally with a seperate name
+ 
+4)What is the benefit of having a copy of the last known state of the remote stored locally?
+
+ It provides you with up-to-date code so that you can keep your commits and merges logically
+ independent.
