@@ -10,8 +10,7 @@ for retrieving previous commits.
  The staging area acts as an intermediary between the working directory and the
 repository. It helps the user from making commits that don't logically make sense.
 
-3) How can you use the staging area to make sure you have one commit per logical
- change?
+3) How can you use the staging area to make sure you have one commit per logical change?
 
  The staging area provides a space to compare the working directory and the previous
 commits. You can use git diff to compare the working directory and the staging area;
@@ -36,3 +35,11 @@ the diagram the way we do?
  The result of merging 2 branches combines the changes in 2 separate instances
 of the same file. The diagram shows the history of the two instances and the order
 in which the changes were made.
+
+7) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+ Pros: It provides an easy way to add working experimental functions to multiple branches
+of code. 
+ 
+ Cons: It is limited in it's ability to figure out which code should be left and which
+should be removed.
